@@ -20,6 +20,10 @@ const App: React.FC = () => {
     <div style={wrapperStyle}>
       <Calendar fullscreen={false} onPanelChange={onPanelChange} />
     </div>
+
+    <div style={wrapperStyle}>
+      <Calendar fullscreen={false} onPanelChange={onPanelChange} />
+    </div>
   );
 };
 
